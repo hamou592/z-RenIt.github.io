@@ -1,0 +1,53 @@
+.AwardstAll{
+    text-align: center;
+    padding: 100px 8rem 80px;
+    background: #122947;
+}
+.AwardstAll h1{
+    color:#27ae60;
+    font-weight: normal;
+}
+.AwardstAll p{
+    font-size: 1.7rem;
+    margin: 0rem 0 2rem;
+}
+.AwardstAll .RecentAwards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.AwardstAll .RecentAwards img{
+    background-color: #ffffff1A;
+    padding:2rem;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.AwardstAll .RecentAwards h1{
+    color: #fff;
+    font-size: 2.4rem;
+}
+.AwardstAll .RecentAwards p{
+    font-weight: 350;
+    color: rgba(148, 148, 148, 0.662);
+    font-size: 1.2rem;
+}
+@media screen and (max-width:900px){
+    .AwardstAll{
+        padding: 100px 3rem 80px;
+    }
+}
+@media screen and (max-width:600px){
+    .AwardstAll{
+        padding: 100px 3rem 40px;
+    }
+    .AwardstAll .RecentAwards{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:400px){
+    .AwardstAll{
+        padding: 100px 0rem 40px;
+    }
+    .AwardstAll .RecentAwards{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

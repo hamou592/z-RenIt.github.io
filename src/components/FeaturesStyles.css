@@ -1,0 +1,58 @@
+.all{
+    margin: 2rem 6rem;
+    text-align: center;
+}
+.all h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.all p{
+    color: rgb(95, 94, 94);
+    margin-bottom: 3rem;
+}
+.all .Features{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    gap: 25px;
+}
+.all .Features .Feature{
+    box-shadow: 0.2rem 0.2rem 0.9rem rgb(132, 129, 129);
+    padding: 1.3rem 0 0.5rem;
+}
+.all .Features .Feature img{
+    background-color: rgba(244, 110, 110, 0.326);
+    padding: 10px;
+    margin: 2rem 0 0.7rem;
+}
+.all .Features .Feature:nth-child(2) img{
+    background-color: rgba(152, 150, 150, 0.349);
+}
+.all .Features .Feature:nth-child(3) img{
+    background-color: rgba(242, 202, 152, 0.505);
+}
+.all .Features .Feature:nth-child(4) img{
+    background-color: rgba(152, 150, 150, 0.445);
+}
+.all .Features .Feature:nth-child(5) img{
+    background-color: rgba(136, 165, 165, 0.5);
+}
+.all .Features .Feature h3{
+    font-weight: normal;
+}
+@media screen and (max-width:940px){
+    .all{
+        margin: 2rem 1rem;
+    }
+}
+@media screen and (max-width:770px){
+    .all .Features{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 25px;
+    }
+    .all .Features .Feature:nth-child(5){
+        margin-left:58%;
+        width: 100%;
+    }
+}

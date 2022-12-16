@@ -1,0 +1,68 @@
+.ContactAll{
+    margin: 5rem 7rem 3rem;
+}
+.ContactAll h1{
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: normal;
+    margin: 0 0 2rem;
+}
+.ContactAll Form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+.ContactAll Form .Identity{
+    display: flex;
+    gap: 10px;
+}
+.ContactAll Form input::placeholder{
+    color: rgb(78, 75, 75);
+    font-weight: 400;
+}
+.ContactAll Form .Identity input{
+    width: 100%;
+    padding: 0.7rem 1rem;
+}
+.ContactAll Form .subject{
+    padding: 0.7rem 1rem;
+}
+.ContactAll Form textarea{
+    padding: 0.7rem 1rem;
+}
+.ContactAll button{
+    width: fit-content;
+    color: #fff;
+    background: #27AE5F;
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: 1px solid #27AE5F;
+    margin-top: 15px;
+    transition: 0.4s ease all;
+}
+.ContactAll button:hover{
+    background: none;
+    color: #27AE5F;
+}
+@media screen and (max-width:800px){
+    .ContactAll{
+        margin: 5rem 2rem 3rem;
+    }
+}
+@media screen and (max-width:600px){
+    .ContactAll{
+        margin: 5rem 1rem 0rem;
+    }
+    .ContactAll Form input,.ContactAll Form textarea{
+        width: 100%;
+    }
+    .ContactAll Form .Identity{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:400px){
+    .ContactAll h1{
+        margin-bottom: 3rem;
+    }
+}

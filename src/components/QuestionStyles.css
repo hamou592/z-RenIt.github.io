@@ -1,0 +1,35 @@
+.QuestionAll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+.QuestionAll .Questiontest p{
+    color: #000;
+}
+.QuestionAll button{
+    background:  #fff;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: rgb(39, 174, 95);
+    border: 2px solid  rgb(39, 174, 95);
+    transition: all 0.7s ease;
+}
+.QuestionAll button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:850px) {
+    .QuestionAll{
+        display: flex;
+        padding: 3rem 2rem;
+    }
+}
+@media screen and (max-width:660px) {
+    .QuestionAll{
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        padding: 3rem 2rem 1rem;
+    }
+}

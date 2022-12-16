@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    background: #fff;
+    position: fixed;
+    padding:15px 30px;
+    top: 0;
+    z-index: 999;
+}
+.Navbar .logo{
+    display: flex;
+}
+.Navbar .logo img{
+    width: 25%;
+    transform: translateY(-20%);
+}
+.Navbar .logo h2{
+    font-size: 25px;
+}
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.Navbar ul a{
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 450;
+    font-size: 1rem;
+}
+.Navbar ul a:hover{
+    color: green;
+}
+.Navbar .button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Navbar .button h3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Navbar .button h3 span{
+    background: rgb(106, 219, 54);
+    padding: 1.5px 8px;
+    border-radius: 50%;
+    font-size: 17px;
+}
+.Navbar .button a{
+    text-decoration: none;
+    color: #fff;
+    background: green;
+    padding: 7px 8px;
+    border-radius: 8px;
+    display: flex;
+    gap: 5px;
+}
+.menu-icons{
+    display: none;
+}
+@media screen and (max-width:900px){
+    .Navbar{
+        width: 95%;
+    }
+}
+@media screen and (max-width:775px){
+    .Navbar .button h3{
+        display: none;
+    }
+}
+@media screen and (max-width:665px){
+    .Navbar{
+        width: 91%;
+    }
+    .menu-icons{
+        display: block;
+    }
+    .menu-icons:hover{
+        cursor: pointer;
+    }
+    .Navbar .nav-menu{
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        height: fit-content;
+        padding: 1em 0;
+        opacity: 0;
+        left: -100%;
+        z-index: 1;
+        background: green;
+        width: 100%;
+        align-items: center;
+        gap: 25px;
+        transition: 1s all ease;
+    }
+    .Navbar .active{
+        flex-direction: column;
+        opacity: 1;
+        position: absolute;
+        top: 5rem;
+        height: fit-content;
+        padding: 1em 0;
+        left: 0;
+        z-index: 1;
+        background: green;
+        width: 100%;
+        align-items: center;
+        gap: 25px;
+    }
+    .Navbar .button{
+        display: none;
+    }
+    .Navbar ul a{
+        color: #fff;
+    }
+    .Navbar ul a:hover{
+        color: #000;
+    }
+}

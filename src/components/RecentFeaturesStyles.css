@@ -1,0 +1,85 @@
+.RecentAll{
+    margin: 2rem 6rem;
+    text-align: center;
+}
+.RecentAll h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.RecentAll p{
+    color: rgb(95, 94, 94);
+    margin-bottom: 3rem;
+}
+.RecentAll .RecentFeatures{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.RecentAll .RecentFeatures .RecentFeature{
+    box-shadow: 0.2rem 0.2rem 0.9rem rgba(132, 129, 129, 0.559);
+}
+.RecentAll .RecentFeatures .RecentFeature img{
+    width: 100%;
+}
+.RecentAll .RecentFeatures .RecentFeature .Recenthead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+.RecentAll .RecentFeatures .RecentFeature .Recenthead h6{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: orange;
+    background: rgba(255, 166, 0, 0.276);
+    padding: 4px 6.5px;
+    border-radius: 20px;
+}
+.RecentAll .RecentFeatures .RecentFeature .Recenthead img{
+    width: 20px;
+}
+.RecentAll .RecentFeatures .RecentFeature h3{
+    text-align: start;
+    margin: 0.7rem 1rem 0;
+    font-weight: normal;
+}
+.RecentAll .RecentFeatures .RecentFeature h4{
+    text-align: start;
+    color: grey;
+    margin: 0.7rem 1rem 0;
+    font-weight: 400;
+}
+.RecentAll .RecentFeatures .RecentFeature h4 span{
+    transform: translateY(20%);
+    font-size: 1.4rem;
+}
+.RecentAll .RecentFeatures .RecentFeature .last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(29, 28, 28, 0.231);
+    margin-top: 2rem;
+    padding: 1rem 1rem 1rem;
+}
+.RecentAll .RecentFeatures .RecentFeature .last button{
+    text-decoration: none;
+    color: #fff;
+    background: green;
+    border: none;
+    padding: 7px 8px;
+    border-radius: 8px;
+}
+@media screen and (max-width:930px){
+    .RecentAll .RecentFeatures{
+        grid-template-columns: 1fr  1fr;
+    }
+    .RecentAll{
+        margin: 2rem 3rem;
+    }
+}
+@media screen and (max-width:600px){
+    .RecentAll .RecentFeatures{
+        grid-template-columns:  1fr;
+    }
+
+}

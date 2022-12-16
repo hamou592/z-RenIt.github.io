@@ -1,0 +1,79 @@
+.Exploreall{
+    margin: 2rem 2rem;
+    text-align: center;
+}
+.Exploreall h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.Exploreall p{
+    color: rgb(95, 94, 94);
+    margin:0.4rem 0rem 2rem;
+}
+.Exploreall .Explores{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 15px 25px;
+}
+.Exploreall .Explores .Explore{
+    background-image: url("E:\training\react-project\react-project\src\assets\NO.jpg");
+    background-size: cover;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 15px;
+    width: 100%;
+}
+.Exploreall .Explores .Explore:nth-child(2){
+    background-image: url("E:\training\react-project\react-project\src\assets\NJ.jpg");
+}
+.Exploreall .Explores .Explore:nth-child(3){
+    background-image: url("E:\training\react-project\react-project\src\assets\liverpool.jpg");
+}
+.Exploreall .Explores .Explore:nth-child(4){
+    background-image: url("E:\training\react-project\react-project\src\assets\Ny.jpg");
+}
+.Exploreall .Explores .Explore:nth-child(5){
+    background-image: url("E:\training\react-project\react-project\src\assets\Montreal.jpg");
+}
+.Exploreall .Explores .Explore:nth-child(6){
+    background-image: url("E:\training\react-project\react-project\src\assets\california.jpg");
+}
+.Exploreall .Explores .Explore .bgExplore{
+    background-color: rgba(21, 20, 20, 0.532);
+    border-radius: 15px;
+    padding: 6rem 1rem 3rem 0rem;
+    margin: 0 1rem;
+}
+.Exploreall .Explores .Explore h2{
+    color:#fff;
+    font-weight: 400;
+}
+.Exploreall .Explores .Explore h2:nth-child(2){
+    margin: 0 0 1rem ;
+}
+.Exploreall .Explores .Explore .flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.Exploreall .Explores .Explore .flex p{
+    margin: 0;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:900px){
+    .Exploreall{
+        margin: 2rem 1rem;
+    }
+    .Exploreall .Explores{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:580px){
+    .Exploreall{
+        margin: 2rem 2rem;
+    }
+    .Exploreall .Explores{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

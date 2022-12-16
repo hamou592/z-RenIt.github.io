@@ -1,0 +1,134 @@
+.Packagesall{
+    margin: 2.5rem 3.5rem;
+    text-align: center;
+}
+.Packagesall h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.Packagesall p{
+    color: rgb(95, 94, 94);
+    margin-bottom: 3rem;
+}
+.Packagesall .PackagesFeatures{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 25px;
+}
+.Packagesall .PackagesFeatures .PackagesFeature{
+    padding: 1.3rem 1rem 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.9rem rgba(132, 129, 129, 0.368);
+    border-radius: 10px;
+    transition: all 0.7s ease;
+}
+.Packagesall .PackagesFeatures .PackagesFeature:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.Packagesall .PackagesFeatures .PackagesFeature:nth-child(2) .best{
+    background: #ff6922;
+    border: none;
+    border-radius: 20px;
+    padding: 0.7rem 1.1rem;
+    margin-bottom: 0.7rem;
+    color: rgba(255, 255, 255, 0.991);
+} 
+.Packagesall .PackagesFeatures .PackagesFeature:nth-child(1) .best,.Packagesall .PackagesFeatures .PackagesFeature:nth-child(3) .best{
+    display: none;
+}
+.Packagesall .PackagesFeatures .PackagesFeature h3{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.Packagesall .PackagesFeatures .PackagesFeature h1{
+    color: #000;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.Packagesall .PackagesFeatures .PackagesFeature h1 span{
+    font-weight:500;
+    font-size: 1.5rem;
+}
+.Packagesall .PackagesFeatures .PackagesFeature p{
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.Packagesall .PackagesFeatures .PackagesFeature .properties{
+    display: grid;
+    gap: 10px;
+    margin: 1rem 0 1.5rem ;
+    justify-content: center;
+}
+.Packagesall .PackagesFeatures .PackagesFeature .properties .property{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Packagesall .PackagesFeatures .PackagesFeature .properties .property i{
+    color: rgb(39, 174, 95);
+    font-size: 1.7rem;
+}
+.Packagesall .PackagesFeatures .PackagesFeature .properties .property .fa-circle-xmark{
+    color: rgb(220, 56, 72);
+}
+.Packagesall .PackagesFeatures .PackagesFeature .properties .property h4{
+    font-weight: normal;
+}
+.Packagesall .PackagesFeatures .PackagesFeature .Start{
+    background:  rgb(39, 174, 95);
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0.7rem;
+    color: rgba(255, 255, 255, 0.991);
+    border: 2px solid  rgb(39, 174, 95);
+    transition: all 0.7s ease;
+}
+.Packagesall .PackagesFeatures .PackagesFeature:nth-child(2) .Start:hover{
+    background: none;
+    color: rgb(39, 174, 95);
+}
+.Packagesall .PackagesFeatures .PackagesFeature:nth-child(1) .Start,
+.Packagesall .PackagesFeatures .PackagesFeature:nth-child(3) .Start {
+    background: none;
+    color: rgb(39, 174, 95);
+}
+.Packagesall .PackagesFeatures .PackagesFeature:nth-child(1) .Start:hover,
+.Packagesall .PackagesFeatures .PackagesFeature:nth-child(3) .Start:hover{
+    background:  rgb(39, 174, 95);
+    color: rgba(255, 255, 255, 0.991);
+}
+@media screen and (max-width:800px){
+    .Packagesall{
+        margin: 2.5rem 1.5rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width:580px){
+    .Packagesall{
+        margin: 2.5rem 5rem;
+        text-align: center;
+    }
+    .Packagesall .PackagesFeatures{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Packagesall .PackagesFeatures .PackagesFeature{
+        padding: 1.3rem 0rem 0.5rem;
+        box-shadow: 0.2rem 0.2rem 0.9rem rgba(132, 129, 129, 0.368);
+        border-radius: 10px;
+        transition: all 0.7s ease;
+    }
+    .Packagesall .PackagesFeatures .PackagesFeature:hover{
+        scale: 1;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:380px){
+    .Packagesall{
+        margin: 2.5rem 2rem;
+        text-align: center;
+    }
+}
