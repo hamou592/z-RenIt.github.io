@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/z-RenIt/static/css/main.161d7801.css",
+    "main.js": "/z-RenIt/static/js/main.99d537eb.js",
+    "static/js/787.a2bf511c.chunk.js": "/z-RenIt/static/js/787.a2bf511c.chunk.js",
+    "static/media/story.jpg": "/z-RenIt/static/media/story.bb56663d9f2d6e553cf6.jpg",
+    "static/media/NO.jpg": "/z-RenIt/static/media/NO.2a581aa54cce016e509d.jpg",
+    "static/media/Ny.jpg": "/z-RenIt/static/media/Ny.cbc8c20993d07abedfa5.jpg",
+    "static/media/villa.jpg": "/z-RenIt/static/media/villa.dab76eb2cbcd2fba7efa.jpg",
+    "static/media/Montreal.jpg": "/z-RenIt/static/media/Montreal.a5e1416e180a1d5ddde2.jpg",
+    "static/media/apartment1.jpg": "/z-RenIt/static/media/apartment1.fe48bb9a2ec1fc36310b.jpg",
+    "static/media/NJ.jpg": "/z-RenIt/static/media/NJ.76e9e4d842620f0ce2d5.jpg",
+    "static/media/liverpool.jpg": "/z-RenIt/static/media/liverpool.b65e3159deab928a1f9a.jpg",
+    "static/media/apartment2.jpg": "/z-RenIt/static/media/apartment2.a91d2703bbf2bfeffa52.jpg",
+    "static/media/hero.jpg": "/z-RenIt/static/media/hero.b74a724de1a3ab460639.jpg",
+    "static/media/condos.jpg": "/z-RenIt/static/media/condos.46a9bea09578d525782e.jpg",
+    "static/media/commercial.jpg": "/z-RenIt/static/media/commercial.51c9dc392e8fb1ed34d6.jpg",
+    "static/media/office.jpg": "/z-RenIt/static/media/office.36822344a723aa0cd8b4.jpg",
+    "static/media/california.jpg": "/z-RenIt/static/media/california.5a4895f9662c5def284d.jpg",
+    "static/media/profile1.jpg": "/z-RenIt/static/media/profile1.1a140ebe6c7546b50d9c.jpg",
+    "static/media/profile3.jpg": "/z-RenIt/static/media/profile3.ec469166e3ded1594fd9.jpg",
+    "static/media/profile5.jpg": "/z-RenIt/static/media/profile5.8e058b10e15a7e559e42.jpg",
+    "static/media/profile4.jpg": "/z-RenIt/static/media/profile4.b9a87032530829511e5b.jpg",
+    "static/media/profile2.jpg": "/z-RenIt/static/media/profile2.487e597e1b128e5b9154.jpg",
+    "index.html": "/z-RenIt/index.html",
+    "static/media/wave.svg": "/z-RenIt/static/media/wave.c3a5a3e8c8ae8e80a822.svg",
+    "main.161d7801.css.map": "/z-RenIt/static/css/main.161d7801.css.map",
+    "main.99d537eb.js.map": "/z-RenIt/static/js/main.99d537eb.js.map",
+    "787.a2bf511c.chunk.js.map": "/z-RenIt/static/js/787.a2bf511c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.161d7801.css",
+    "static/js/main.99d537eb.js"
+  ]
+}
